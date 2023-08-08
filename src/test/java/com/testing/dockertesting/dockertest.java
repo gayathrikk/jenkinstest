@@ -18,12 +18,6 @@ public class dockertest {
 		RemoteWebDriver driver = new RemoteWebDriver(url,dc);
 		driver.get("http://public.humanbrain.in");
 		System.out.println("title"+driver.getTitle());
-//		driver.findElement(By.xpath("//a[text()='Login']")).click();
-//		driver.findElement(By.xpath("//a[text()='New to Flipkart? Create an account']")).click();
-//		Thread.sleep(2000);
-//		driver.findElement(By.xpath("(//input[@type='text'])[2]")).sendKeys("9941253687");
-//		Thread.sleep(2000);
-//		driver.findElement(By.xpath("//span[text()='CONTINUE']")).click();
 		driver.quit();
 		
 
